@@ -31,3 +31,28 @@ Atributos      | Definição
 |IsActiveMember| Indica se o cliente estiver ativo (nos últimos 12 meses).|
 |EstimatedSalary| Estimativa de salário anual de clientes.|
 |Exited         | Indica se o cliente for um churn.|
+
+## 3. Estratégia de Solução
+
+**01. Descrição dos Dados:** O objetivo é usar métricas estatísticas e analise descritiva, como dimensão dos dados e tipos de atributos para identificar dados fora do escopo de negócio.  
+
+**02. Feature Engineering:** Tem como objetivo derivar as variáveis originais, obtendo variáveis que descrevem melhor o fenômeno que será modelado.
+
+**03. Filtragem:** Filtrar linhas e selecionar colunas que não estejam relacionadas com informações para a modelagem e que não correspondam ao escopo de negócio. 
+
+**04. Análise exploratória de dados:** Objetivo de explorar os dados ganhando experiência sobre o negócio, encontrar insights validando as hipóteses de negócio e entender melhor o impacto das variáveis no aprendizagem do modelo. 
+
+**05. Modelagem de Dados:** Preparar os dados para que o modelo aprenda o comportamento do fenômeno.
+
+**06. Seleção de Variáveis:** Seleção dos atributos mais significativas, tornando o modelo simples e garantindo que aprenda o suficiente para generalizar todos os exemplos.
+
+**07. Modelagem de Machine Learning:** Implementar e treinar modelos de Machine Learning.
+
+**08. Hyperparameter Fine Tunning:** Encontrar o conjunto de valores para os parâmetros do modelo selecionado na etapa anterior, com objetivo de maximizar o aprendizado. 
+
+**09. Avaliação do Modelo e Conversão do Modelo em Valores de Negócio:** Converter o desempenho do modelo machine learning em um resultado de negócios.
+
+**10. Implementar Modelo em Produção:** Publicar o modelo em ambientem nuvem para tornar os resultados acessíveis para qualquer consumidor seja pessoa ou serviços. 
+
+## 4. Top 3 Inseghts
+
