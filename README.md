@@ -76,7 +76,7 @@ Desse modo, o algoritmo pode aprender melhor como prever pessoas que não estão
 
 ![](img/balanceamento.png)
 
-Todos os algoritmos de Machine Learning foram treinados usando o Cross Validation nos dados de treinamento, calculando a performance real do modelo sobre a variabilidade dos dados, assim evitando pegar por acaso o melhor ou pior período. Os modelos escolhidos para comparação foram, XGBoostClassifier, RandomForestClassifier e o QuadraticDiscriminantAnalysis. 
+Todos os algoritmos de Machine Learning foram treinados usando o Cross Validation nos dados de treinamento, calculando a performance real do modelo sobre a variabilidade dos dados, assim evitando pegar por acaso o melhor ou pior caso. Os modelos escolhidos para comparação foram, XGBoostClassifier, RandomForestClassifier e o QuadraticDiscriminantAnalysis. 
 
 O resumo abaixo mostra a comparação de métricas depois de executar o Cross Validation com K-Fold com 10 splits no conjunto de dados completo.
 
