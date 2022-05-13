@@ -57,13 +57,16 @@ Atributos      | Definição
 ## 4. Top 3 Inseghts
 
 **Hipótese 01:** Clientes com Saldo maior que a media estão 30% menos presentes em churn.
+
 **Falso** Clientes com Saldo maior que a média estão 40% mais presentes em Churn que clientes com saldo menor.
 
 **Hipótese 02:** Clientes com Credit Score menor que a media do pais tem Churn 10% maior.
+
 **True** O número de clientes em Churn com credit score menor que a média de seu pais é 7% menor que clientes com credt score maior.
 
 **Hipótese 03:**  Churn é 25% maior para clientes com apenas um produto comprado.
+
 **True** Clientes com apenas um produto comprado podem ser ate 60% mais presentes em Churn que clientes que compraram mais produtos.
 
 ## 5. Modelo de Machine Learning
-**Hipótese 01:**
+
