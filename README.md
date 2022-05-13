@@ -70,3 +70,18 @@ Atributos      | Definição
 
 ## 5. Modelo de Machine Learning
 
+A proporção de clientes em churn é 20% enquanto para clientes que não estão em Churn é 80%, logo os modelos terão mais exemplos de clientes que não estão em Churn.
+
+Desse modo, o algoritmo pode aprender melhor como prever pessoas que não estão em Churn, o que não é o objetivo. Para prevenir que isso aconteça, dos dados serão balanceados com um algoritmo -Smote Tomek. 
+
+![](img/balanceamento.png)
+
+Todos os algoritmos de Machine Learning foram treinados usando o Cross Validation nos dados de treinamento, calculando a performance real do modelo sobre a variabilidade dos dados, assim evitando pegar por acaso o melhor ou pior período. Os modelos escolhidos para comparação foram, XGBoostClassifier, RandomForestClassifier e o QuadraticDiscriminantAnalysis. 
+
+O resumo abaixo mostra a comparação de métricas depois de executar o Cross Validation com K-Fold com 10 splits no conjunto de dados completo.
+
+Modelo    | Accuracy | Precision  | Recall | F1 score
+------------ | ------------- |  ------------ |  ------------  |  ------------
+|QuadraticDiscriminantAnalysis |0.730309 | 0.746556 |0.697540 | 0.721136
+|XGBoostClassifier  |0.893917| 0.912725 | 0.869881 | 0.878665
+|RandomForestClassifier | 0.901174 | 0.907049 | 0.894266 | 0.896368
